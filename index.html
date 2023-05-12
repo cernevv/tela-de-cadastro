@@ -32,7 +32,7 @@
         </div>
 
         <form action="https://api.sheetmonkey.io/form/oMHBbWEdEyXCoCVTRZT8HW" method="post">
-            
+
             <label for="name">
                 <span>Nome</span>
                 <input type="text" id="name" name="name">
@@ -40,12 +40,13 @@
 
             <label>
                 <span>Cep:</span>
-                <input type="text" id="cep" value="" size="10" maxlength="9" onblur="pesquisacep(this.value);"/>
+                <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" 
+                onblur="pesquisacep(this.value);"/>
             </label>
 
             <label>
                 <span>Rua:</span>
-                <input name="bairro" type="text" id="cidade" size="60">
+                <input name="rua" type="text" id="rua" size="60">
             </label>
 
             <label>
